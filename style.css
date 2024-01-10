@@ -28,17 +28,6 @@ header nav a{
     text-decoration: none;
 }
 
-h1, h2{
-    font-weight: 600;
-    font-size: 32px;
-    margin-bottom: 32px;
-    /*color: #ff9a6c;*/
-}
-
-p{
-    padding: 15px;
-}
-
 #inicio{
     display: flex;
     align-items: center;
@@ -47,4 +36,18 @@ p{
     padding: 24px 80px 120px 80px;
     position: relative;
 }
+
+h1, h2{
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 32px;
+    /*color: #ff9a6c;*/
+}
+
+.paragrafo{
+    line-height: 150%;
+    marg
+}
+
+
 
