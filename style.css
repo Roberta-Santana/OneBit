@@ -133,5 +133,25 @@ h1, h2{
 footer{
     background-color: rgba(255,152,108,0.25);
     display: flex; /*blocos flexíveis em cada div, divido em colunas*/
-    
+    gap: 80px;
+    padding: 64px 80px;
+}
+
+footer img, footer .titulo{
+    display: block;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+footer nav a{
+    color: #263138;
+    display: block;
+    margin-bottom: 16px;
+    text-decoration: none;
+    max-width: 350px;
+}
+
+footer p a{
+    color: #ff725e;
+    text-decoration: none;
 }
