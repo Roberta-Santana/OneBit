@@ -27,7 +27,7 @@ header nav a{
     padding: 32px;
     text-decoration: none;
 }
-
+/*# = id\ . = class*/
 #inicio{
     display: flex;
     align-items: center;
@@ -133,6 +133,7 @@ h1, h2{
 footer{
     background-color: rgba(255,152,108,0.25);
     display: flex; /*blocos flexíveis em cada div, divido em colunas*/
+    justify-content: space-between;
     gap: 80px;
     padding: 64px 80px;
 }
@@ -149,9 +150,25 @@ footer nav a{
     margin-bottom: 16px;
     text-decoration: none;
     max-width: 350px;
+
+}
+footer p{
+    margin-bottom: 16px;
+
 }
 
 footer p a{
-    color: #ff725e;
+    color: #263138;
     text-decoration: none;
+}
+
+#copyright{
+    background-color: #263138;
+    color: #ffffff;
+    text-align: center;
+    padding: 24px;
+}
+
+#copyright a{
+    color: #ff9a6c;
 }
